@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>
+      .'. .'. | \ / | '. \ | / .' '. \\|// .' '-- --' .'/|\'.^ '..'|'..
+    </title>
+    <meta name="description" content="" />
+    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+  </head>
+
+  <body>
+    <a-scene>
+      <a-assets>
+        <a-asset-item id="" src=""></a-asset-item>
+        <img id="vk" src="assets\vk.jpg" />
+        <img id="unc" src="assets\unc.jpg" />
+        <a-asset-item id="trash" src="assets\trash.gltf"></a-asset-item>
+      </a-assets>
+
+      <a-videosphere
+        src="assets\vk.jpg"
+      ></a-videosphere>
+      <a-image
+        src="assets\unc.jpg"
+        width="300"
+        height="240"
+        position="357 9 257"
+        animation__rotation="property:rotation;
+           to :0 360 0;
+           dur:5000;
+           loop:true;
+           dir:alternate;"
+      ></a-image>
+      <a-entity
+        gltf-model="assets\trash.gltf"
+        scale="25 25 25"
+        position="10 10 -250"
+      ></a-entity>
+
+      <a-text
+        position="-0.286 3.903 -3.776"
+        scale="30.170 40.600 10.020"
+        color="green"
+        value="En la representación mercantil que se vierte sobre toda representación hay pulcritud y comesura que nos acerca a las ideas. No ésta o aquella instancia de disfrute, de deseo o de un objeto sino el disfrute, el deseo u el objeto. Así pues, hay una purificación, un refundimiento del ritual y el signo. Imaginemos lo presente como una superficie pulida sin mácula. Sería fácil caracterizar la red social omniabarcante como un devenir inmediatamente visible de lo interior. Sin embargo, aquello que lo público arranca al anonimato oscurece el protagonismo de su contrapartida- esto es, de lo prontamente oculto- en tanto que lo mostrado lo es activamente. Dicho de otro modo, el movimiento no se da tanto así de lo privado a lo social sino al contrario. Lo poroso, abierto y excesivo acaece contenido por la mirada de los otros en la morada del yo. "
+        animation__rotation="property:rotation;
+           to :0 360 0;
+           dur:5000;
+           loop:true;
+           dir:alternate;"
+      ></a-text>
+    </a-scene>
+  </body>
+</html>
